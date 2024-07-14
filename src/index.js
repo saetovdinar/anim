@@ -1,5 +1,7 @@
 import './css/style.css';
 
-import './js/app';
+import App from './js/app';
+
+new App(document.querySelector('.container'));
 
 // TODO: write your code in app.js
